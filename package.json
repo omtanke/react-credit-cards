@@ -1,6 +1,6 @@
 {
   "name": "@omtanke/react-credit-cards",
-  "version": "1.0.0-Alpha1",
+  "version": "0.1.4",
   "description": "Beautiful credit cards for your payment forms",
   "repository": {
     "type": "git",
@@ -25,11 +25,12 @@
     "payment"
   ],
   "peerDependencies": {
-    "glob-parent": ">=5.1.2",
-    "tar": ">=4.4.18 <5.0.0 || >=5.0.10 <6.0.0 || >=6.1.9"
+    "prop-types": "^15.7.2",
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0"
   },
   "dependencies": {
-    "payment": "^2.3.0"
+    "payment": "^2.3.0",
+    "tapable": "^2.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
